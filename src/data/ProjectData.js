@@ -1,5 +1,5 @@
 import {FaFacebook, FaInstagram, FaTelegram, FaWhatsapp} from "react-icons/fa"
-import { bootstrap, figma, html, img1,img2, img3, img4, js, react, tailwind} from "../assets/index"
+import { bootstrap, figma, html, img1,img2, img3, img4, js, project, react, tailwind} from "../assets/index"
 import { useImperativeHandle } from "react";
 
 export const navData = {
@@ -168,3 +168,5 @@ export const AboutmeData=[
   },
 ];
   
+
+

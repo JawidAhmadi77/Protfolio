@@ -8,8 +8,10 @@ import js from "./js.png";
 import html from "./html.png";
 import figma from "./figma.png";
 import tailwind from "./tailwind.png";
+import project from "./project.jpg";
 
 export {
+    project,
     img1,
     img2,
     img3,
