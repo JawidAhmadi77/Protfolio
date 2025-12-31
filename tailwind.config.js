@@ -12,7 +12,8 @@ export default {
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 190, 0.5)",
-        dimgreen: "#007f8f",
+        // dimgreen: "#007f8f",
+        dimgreen:"rgba(30,30,30,1)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

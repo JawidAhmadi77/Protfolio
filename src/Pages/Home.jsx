@@ -16,7 +16,7 @@ export default function Home() {
         <Skills />
         <h1 className="py-6 text-4xl font-bold text-center ">My Projects</h1>
         <div className="p-8 md:w-[700px] text-center relative md:left-[27%]">
-          <div className="p-4 transition duration-700 bg-white rounded-lg shadow hover:bg-dimgreen hover:scale-105 hover:shadow-lg hover:text-white">
+          <div className="p-4 transition duration-700 bg-white rounded-lg shadow hover:bg-sky-500 hover:scale-103 hover:shadow-lg hover:text-white">
             <h2 className="py-6 mb-2 text-2xl font-bold">Certification</h2>
 
             <a

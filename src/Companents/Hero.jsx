@@ -21,7 +21,7 @@ const Hero = ({ data }) => {
         <img
           src={data.img}
           alt={data.name}
-          className={`absolute top-60 md:top-40 w-[250px] md:w-[400px] rounded-full shadow-lg object-cover bg-yellow-400 mt-11 transition-all hover:scale-105 duration-700 ${data.style}`}
+          className={`absolute top-60 md:top-40 w-[250px] md:w-[400px] rounded-full shadow-lg object-cover bg-gray-300 hover:bg-sky-500 mt-11 transition-all hover:scale-100 duration-700 ${data.style}`}
         />
       </div>
     </section>

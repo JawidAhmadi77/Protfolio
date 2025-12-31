@@ -15,7 +15,7 @@ export default function Navbar() {
           to="/"
           className="flex items-center gap-3 text-2xl font-bold text-white "
         >
-          <h1 className="px-1 text-xl text-yellow-400 border-4 border-yellow-400">
+          <h1 className="px-1 text-xl border-4 text-sky-500 border-sky-500">
             A
           </h1>
           {navData.logo}
@@ -29,8 +29,8 @@ export default function Navbar() {
                 to={link.path}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white border-b-2 border-white pb-1"
-                    : "hover:text-white"
+                    ? "text-sky-500 border-b-2 border-sky-500 pb-1"
+                    : "hover:text-sky-500"
                 }
               >
                 {link.name}
@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="hidden space-x-8 md:flex">
           {navData.social.map((item, i) => (
             <a key={i} href={item.url} target="_blank" rel="noreferrer">
-              <item.icon className="text-2xl hover:text-yellow-400" />
+              <item.icon className="text-2xl hover:text-sky-500" />
             </a>
           ))}
         </div>

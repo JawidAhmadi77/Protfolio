@@ -21,7 +21,7 @@ export default function ConectsMe() {
               <h1 className="pb-6 text-3xl md:text-5xl">{data.body2}</h1>
               <button
                 onClick={() => navigate("/contact")}
-                className="px-10 py-5 mt-2 font-bold text-white transition md:mt-12 bg-dimgreen rounded-xl hover:bg-yellow-400 hover:text-black"
+                className="px-10 py-5 mt-2 font-bold text-white transition md:mt-12 bg-dimgreen rounded-xl hover:bg-sky-500 hover:text-black"
               >
                 {data.button}
               </button>
@@ -30,7 +30,7 @@ export default function ConectsMe() {
               <img
                 src={data.img}
                 alt=""
-                className={`w-[350px] md:mt-0 mt-12 md:absolute right-4 md:right-72 md:w-[500px] rounded-full shadow-lg object-cover bg-yellow-400 border-4 border-yellow-400  `}
+                className={`w-[350px] md:mt-0 mt-12 md:absolute right-4 md:right-72 md:w-[500px] rounded-full shadow-lg object-cover bg-sky-200 border-4 border-sky-400  `}
               />
             </div>
           </div>

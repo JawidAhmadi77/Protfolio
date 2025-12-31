@@ -114,7 +114,7 @@ const Form = () => {
 
             <button
               type="submit"
-              className="w-full py-2 mt-6 font-semibold text-white transition-all bg-dimgreen hover:bg-yellow-300 hover:text-black rounded-xl"
+              className="w-full py-2 mt-6 font-semibold text-white transition-all bg-dimgreen hover:bg-sky-500 hover:text-black rounded-xl"
             >
               {contactData.buttonText}
             </button>
